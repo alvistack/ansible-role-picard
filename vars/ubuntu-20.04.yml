@@ -1,0 +1,28 @@
+---
+
+# (c) Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+_apt_key:
+  - url: "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xDD34DEEB1F7B0EA487A01B270CC3AFF5CEDF0F40"
+    id: "DD34DEEB1F7B0EA487A01B270CC3AFF5CEDF0F40"
+    state: "present"
+
+_apt_repository:
+  - repo: "deb http://ppa.launchpad.net/musicbrainz-developers/stable/ubuntu focal main"
+    state: "present"
+
+_apt:
+  - { state: "latest", name: "libchromaprint-tools" }
+  - { state: "latest", name: "picard" }
