@@ -24,4 +24,3 @@
   loop: "{{ _zypper }}"
   register: result
   until: result is succeeded
-  tags: picard
