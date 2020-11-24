@@ -1,6 +1,6 @@
 # Ansible Role for Picard
 
-[![Travis](https://img.shields.io/travis/com/alvistack/ansible-role-picard.svg)](https://travis-ci.com/alvistack/ansible-role-picard)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-picard/master)](https://gitlab.com/alvistack/ansible-role-picard/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-picard.svg)](https://github.com/alvistack/ansible-role-picard/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-picard.svg)](https://github.com/alvistack/ansible-role-picard/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.picard-blue.svg)](https://galaxy.ansible.com/alvistack/picard)
