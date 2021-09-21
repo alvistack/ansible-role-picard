@@ -1,5 +1,7 @@
 # Ansible Role for Picard
 
+<img src="/alvistack.svg" width="75" alt="AlviStack">
+
 [![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-picard/master)](https://gitlab.com/alvistack/ansible-role-picard/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-picard.svg)](https://github.com/alvistack/ansible-role-picard/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-picard.svg)](https://github.com/alvistack/ansible-role-picard/blob/master/LICENSE)
