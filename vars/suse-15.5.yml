@@ -14,17 +14,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-_apt_key:
-  - keyring: "/etc/apt/trusted.gpg.d/musicbrainz-developers.gpg"
-    url: "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xDD34DEEB1F7B0EA487A01B270CC3AFF5CEDF0F40"
-    id: "DD34DEEB1F7B0EA487A01B270CC3AFF5CEDF0F40"
-    state: "present"
-
-_apt_repository:
-  - filename: "musicbrainz-developers"
-    repo: "deb http://ppa.launchpad.net/musicbrainz-developers/stable/ubuntu bionic main"
-    state: "present"
-
-_apt:
-  - { state: "latest", name: "libchromaprint-tools" }
+_zypper:
+  - { state: "latest", name: "chromaprint-fpcalc" }
   - { state: "latest", name: "picard" }
