@@ -19,8 +19,8 @@
   remote_user: root
   become: true
   tasks:
-    - name: picard --version
+    - name: flatpak info org.musicbrainz.Picard
       ansible.builtin.command:
-        cmd: picard --version
+        cmd: flatpak info org.musicbrainz.Picard
       register: result
       changed_when: result is not succeeded
