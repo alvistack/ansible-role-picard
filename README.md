@@ -1,13 +1,13 @@
-# Ansible Role for Picard
+# Ansible Role for Picard with Flatpak
 
 <a href="https://alvistack.com" title="AlviStack" target="_blank"><img src="/alvistack.svg" height="75" alt="AlviStack"></a>
 
-[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-picard/master)](https://gitlab.com/alvistack/ansible-role-picard/-/pipelines)
-[![GitHub tag](https://img.shields.io/github/tag/alvistack/ansible-role-picard.svg)](https://github.com/alvistack/ansible-role-picard/tags)
-[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-picard.svg)](https://github.com/alvistack/ansible-role-picard/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.picard-blue.svg)](https://galaxy.ansible.com/alvistack/picard)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-flatpak_picard/master)](https://gitlab.com/alvistack/ansible-role-flatpak_picard/-/pipelines)
+[![GitHub tag](https://img.shields.io/github/tag/alvistack/ansible-role-flatpak_picard.svg)](https://github.com/alvistack/ansible-role-flatpak_picard/tags)
+[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-flatpak_picard.svg)](https://github.com/alvistack/ansible-role-flatpak_picard/blob/master/LICENSE)
+[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.flatpak_picard-blue.svg)](https://galaxy.ansible.com/alvistack/flatpak_picard)
 
-Ansible Role for Picard Installation.
+Ansible Role for Picard with Flatpak.
 
 ## Requirements
 

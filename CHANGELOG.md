@@ -1,4 +1,4 @@
-# Ansible Role for Picard
+# Ansible Role for Picard with Flatpak
 
 ## 13.6.0 - TBC
 
